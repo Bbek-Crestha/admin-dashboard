@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+
 :root {
 	--yellow: linear-gradient(180deg, #f8d49a -146.42%, #fad79d -46.42%);
 	--orange: #fca61f;
@@ -9,4 +11,10 @@
 	--boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
 	--smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
 	--activeItem: #f799a354;
+}
+
+body {
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Inter", sans-serif;
 }
