@@ -1,9 +1,16 @@
 import "./App.css";
+import Sidebar from "./components/sidebar/Sidebar";
 
 const App = () => {
 	return (
-		<div>
-			<h1>Hello World</h1>
+		<div className="App">
+			<div className="AppGlass">
+				<Sidebar />
+
+				<div></div>
+
+				<div></div>
+			</div>
 		</div>
 	);
 };
