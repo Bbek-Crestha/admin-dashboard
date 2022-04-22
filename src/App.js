@@ -1,4 +1,5 @@
 import "./App.css";
+import MainDash from "./components/mainDash/MainDash";
 import Sidebar from "./components/sidebar/Sidebar";
 
 const App = () => {
@@ -7,7 +8,7 @@ const App = () => {
 			<div className="AppGlass">
 				<Sidebar />
 
-				<div></div>
+				<MainDash />
 
 				<div></div>
 			</div>
