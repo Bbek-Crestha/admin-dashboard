@@ -1,5 +1,6 @@
 import "./App.css";
 import MainDash from "./components/mainDash/MainDash";
+import RightSide from "./components/RightSide/RightSide";
 import Sidebar from "./components/sidebar/Sidebar";
 
 const App = () => {
@@ -10,7 +11,7 @@ const App = () => {
 
 				<MainDash />
 
-				<div></div>
+				<RightSide />
 			</div>
 		</div>
 	);
