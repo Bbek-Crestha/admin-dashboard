@@ -30,3 +30,13 @@ th {
 		margin-top: 2rem;
 	}
 }
+
+@media screen and (max-width: 768px) {
+	.Table {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 18rem;
+	}
+}
