@@ -97,3 +97,11 @@
 .chartContainer {
 	width: 70%;
 }
+
+@media screen and (max-width: 1200px) {
+	.ExpandedCard {
+		top: 2rem;
+		left: 6rem;
+		height: 50%;
+	}
+}

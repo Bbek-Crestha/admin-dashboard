@@ -23,3 +23,10 @@ th {
 .Details {
 	color: #00b5ff !important;
 }
+
+@media screen and (max-width: 1200px) {
+	.Table {
+		width: 170%;
+		margin-top: 2rem;
+	}
+}
